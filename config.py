@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Mau bokep free anda harus join group dan channel kami dlu ya\n\nMalas join link sana_sini, yuk join VIP berkualitas dengan harga terjangkau\n\nHubgungi admin @cyellaku\n\nTesty @Testy_chopper.</b>",
+    "<b>Hello {first}</b>\n\n<b>Untuk mendapatkan video bokep free anda harus join group dan channel kami dlu ya\n\nKalaw Malas join link sana_sini, yuk join VIP berkualitas dengan harga terjangkau\n\nHubungi admin @cyellaku\n\nTesty @Testy_chopper.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
