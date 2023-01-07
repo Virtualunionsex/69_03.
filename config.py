@@ -25,10 +25,10 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001810517856"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "@cyellaku")
+OWNER = os.environ.get("OWNER", "gkushskap")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://drnjjmwo:3WtWqs9CM-zn82WCDUijazFdlcMA8hgU@lucky.db.elephantsql.com/drnjjmwo")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://xupwbxxa:4SCfAzGvy4xpj9P3VzuBfPn4AsgasV-T@rosie.db.elephantsql.com/xupwbxxa")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "VIPEXOTIS")
