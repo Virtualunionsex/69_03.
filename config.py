@@ -31,12 +31,12 @@ OWNER = os.environ.get("OWNER", "gkushskap")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://xupwbxxa:4SCfAzGvy4xpj9P3VzuBfPn4AsgasV-T@rosie.db.elephantsql.com/xupwbxxa")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "VIPEXOTIS")
-GROUP = os.environ.get("GROUP", "VIPEXOTIS")
+CHANNEL = os.environ.get("CHANNEL", "HISTORIPARMANN")
+GROUP = os.environ.get("GROUP", "JUALBELIGCDANCH")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001340728711"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001835692527"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001835692527"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001340728711"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
