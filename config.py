@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Untuk mendapatkan video bokep free anda harus join group dan channel kami dlu ya\n\nKalaw Malas join link sana_sini, yuk join VIP berkualitas dengan harga terjangkau\n\nJOIN VVIP MURAH DAN TERPERCAYA DI @VIPEXOTIS.</b>",
+    "<b>Hello {first}</b>\n\n<b>VVIP 9 GROUP/CHANNEL DENGAN TOTAL PULUHAN RIBU VIDEO HANYA 50K HUB @PANGGILAJA_M.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -53,7 +53,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File bokep yang saya Bagikan\n\nJOIN VVIP MURAH DAN TERPERCAYA DI @VIPEXOTIS</b>",
+    "<b>Hello {first}\n\nPromo VVIP 9 GROUP/CHANNEL DENGAN TOTAL PULUHAN RIBU VIDEO HANYA 50K HUB @PANGGILAJA_M</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
