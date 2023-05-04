@@ -31,7 +31,7 @@ OWNER = os.environ.get("OWNER", "cyellaku")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://zosevcpe:0-p_z8WrNbfkI7RljYYWwJFGTar3fbCw@rosie.db.elephantsql.com/zosevcpe")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "nakama_asl)
+CHANNEL = os.environ.get("CHANNEL", "nakama_asl")
 GROUP = os.environ.get("GROUP", "virtual_executive")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Join dulu group and channel nya baru bisa dapat asupan free\n\nPromo VIP 50K dapat 9 group hub @panggil_aja_m</b>",
+    "<b>Hello {first}</b>\n\n<b>Join dulu group and channel nya baru bisa dapat asupan free\n\nPromo VIP 50K dapat 9 group hub @panggilaja_m</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1715348447").split())]
