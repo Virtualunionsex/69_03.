@@ -28,7 +28,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
 OWNER = os.environ.get("OWNER", "panggil_y")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://xupwbxxa:4SCfAzGvy4xpj9P3VzuBfPn4AsgasV-T@rosie.db.elephantsql.com/xupwbxxa")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://btjbpeqw:axLBGBheBe02mxzTFbcy0_uUYe76Aj_6@john.db.elephantsql.com/btjbpeqw")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "nakama_asl")
