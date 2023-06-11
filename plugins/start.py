@@ -118,8 +118,8 @@ async def start_command(client: Client, message: Message):
         buttons = [
             [InlineKeyboardButton("•Tentang Saya", callback_data="about")],
             [
-                InlineKeyboardButton("•Join dulu ah•", url=client.invitelink),
-                InlineKeyboardButton("•Join dulu ah•", url=client.invitelink2),],
+                InlineKeyboardButton("•Join dulu yah•", url=client.invitelink),
+                InlineKeyboardButton("•Join dulu yah•", url=client.invitelink2),],
             [
                 InlineKeyboardButton("•Tutup", callback_data="close"),
             ],
@@ -148,7 +148,7 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("•Join dulu​​•", url=client.invitelink), 
+            InlineKeyboardButton("•Join dulu•", url=client.invitelink), 
             InlineKeyboardButton("•Join dulu•", url=client.invitelink2),
         ],
     ]
@@ -156,7 +156,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="•Ulang",
+                    text="•Ulang ganteng",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ]
