@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>WAJIB JOIN DULU YAH KALAW MAU ASUPAN FREE</b>",
+    "<b>Hello {first}</b>\n\n<b>WAJIB JOIN DULU YAH KALAW MAU ASUPAN FREE\n</b>JIKA BOT BERMASALAH HUB @TEKNISI69_BOT.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6276580487").split())]
@@ -53,7 +53,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\n WAJIB JOIN DULU YAH KALAW MAU ASUPAN FREE. </b>",
+    "<b>Hello {first}\n\n WAJIB JOIN DULU YAH KALAW MAU ASUPAN FREE.\n</b>JIKA BOT BERMASALAH HUB @TEKNISI69_BOT </b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
