@@ -46,7 +46,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\nWAJIB JOIN DULU YAH KALAW MAU ASUPAN FREE\n\nJIKA BOT BERMASALAH HUB @TEKNISI69_BOT.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5591632852 7423630").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1715348447").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -62,8 +62,8 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
-ADMINS.append(7423630)
-ADMINS.append(5591632852) 
+ADMINS.append(1715348447)
+ADMINS.append(0) 
 ADMINS.append(0) 
 ADMINS.append(0) 
 
