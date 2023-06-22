@@ -10,7 +10,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6068482744:AAFJqSbR0xrJVfwzNWS6xlxy9eYenW83wK0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6223858274:AAG8uBfzUoF0gx0rlctfvjKKd7bQi5e7Zyc")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -19,24 +19,24 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001908173681"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001805792150"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5360457944"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "panggil_y")
+OWNER = os.environ.get("OWNER", "saila4")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://fpavobzz:W5oQgAKSGGXrZjiGWk05tovwLJtKH3Ut@lucky.db.elephantsql.com/fpavobzz")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://xdhalolj:Li8LBJshqqan7LwPfDB-2v7bjR4855O6@rosie.db.elephantsql.com/xdhalolj")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "nakama_asl")
 GROUP = os.environ.get("GROUP", "executive02")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001522786101"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001938558114"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001316172718"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001876509299"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -46,7 +46,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\nWAJIB JOIN DULU YAH KALAW MAU ASUPAN FREE\n\nJIKA BOT BERMASALAH HUB @TEKNISI69_BOT.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1715348447").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5360457944 1715348447").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -62,7 +62,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
-ADMINS.append(6176511732)
+ADMINS.append(5360457944)
 ADMINS.append(0) 
 ADMINS.append(0) 
 ADMINS.append(0) 
